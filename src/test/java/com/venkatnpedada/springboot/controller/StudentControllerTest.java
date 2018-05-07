@@ -40,7 +40,7 @@ public class StudentControllerTest {
 
 	String exampleCourseJson = "{\"name\":\"Spring\",\"description\":\"10 Steps\",\"steps\":[\"Learn Maven\",\"Import Project\",\"First Example\",\"Second Example\"]}";
 
-	@Test
+/*	@Test
 	public void retrieveDetailsForCourse() throws Exception {
 
 		Mockito.when(
@@ -60,7 +60,7 @@ public class StudentControllerTest {
 
 		JSONAssert.assertEquals(expected, result.getResponse()
 				.getContentAsString(), false);
-	}
+	}*/
 
 	@Test
 	public void createStudentCourse() throws Exception {

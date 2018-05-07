@@ -43,7 +43,7 @@ public class StudentControllerIT {
 		headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
 	}
 
-	@Test
+/*	@Test
 	public void testRetrieveStudentCourse() throws JSONException {
 
 		HttpEntity<String> entity = new HttpEntity<String>(null, headers);
@@ -55,7 +55,7 @@ public class StudentControllerIT {
 		String expected = "{id:Course1,name:Spring,description:10Steps}";
 
 		JSONAssert.assertEquals(expected, response.getBody(), false);
-	}
+	}*/
 
 	@Test
 	public void addCourse() {
